@@ -6,6 +6,7 @@
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DocumentationFile>C:\WorkDir\BootCamp\Code\ToDoItemApi-2020-11-3-6-40-30-108\ToDoItemApi\ToDoItemApi.xml</DocumentationFile>
+    <NoWarn>1701;1702;1591</NoWarn>
   </PropertyGroup>
 
 

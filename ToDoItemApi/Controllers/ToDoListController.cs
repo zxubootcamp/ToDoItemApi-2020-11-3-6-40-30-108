@@ -66,9 +66,9 @@ namespace ToDoItemApi.Controllers
         /// <remarks>
         /// Get a ToDo items by ID
         /// </remarks>
-        /// <param name="id">ToDoItem description</param>
-        /// <response code="200">Return all ToDo items in list</response>
-        /// <response code="404">If request id does not exist</response>
+        /// <param name="id">ToDoItem ID</param>
+        /// <response code="200">Return ToDoItems which ID matches</response>
+        /// <response code="404">If requested id does not exist</response>
         /// <returns></returns>
         [HttpGet("{id}", Name = "GetById")]
         [ProducesResponseType(StatusCodes.Status200OK)]
