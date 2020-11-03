@@ -30,7 +30,6 @@ namespace ToDoItemApi
         {
             services.AddSingleton<IRepository, MemoryRepository>();
             services.AddControllers();
-            services.AddSwaggerGen();
             services.AddSwaggerGen(c =>
             {
                 var folder = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
