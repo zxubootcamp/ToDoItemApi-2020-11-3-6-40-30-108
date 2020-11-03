@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ToDoItemApi</name>
+    </assembly>
+    <members>
+        <member name="M:ToDoItemApi.Controllers.ToDoListController.Create(ToDoItemApi.Models.ToDoItem)">
+            <summary>
+            Create a ToDoItem
+            </summary>
+            <remarks>
+            Create a ToDoItem
+            </remarks>
+            <response code="200">Success</response>
+            <response code="400">ID already exists</response>
+            <returns></returns>
+        </member>
+        <member name="M:ToDoItemApi.Controllers.ToDoListController.GetAll">
+            <summary>
+            Get all ToDo items
+            </summary>
+            <remarks>
+            Get all ToDo items in a list
+            </remarks>
+            <response code="200">Return all ToDo items in a list</response>
+            <returns></returns>
+        </member>
+        <member name="M:ToDoItemApi.Controllers.ToDoListController.GetById(System.Int64)">
+            <summary>
+            Get a ToDo items by ID
+            </summary>
+            <remarks>
+            Get a ToDo items by ID
+            </remarks>
+            <param name="id">ToDoItem description</param>
+            <response code="200">Return all ToDo items in list</response>
+            <response code="404">If request id does not exist</response>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
